@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кінотеатр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до StarLight Cinema</h1>
+        <p id="tagline">Ваш шлях до найкращих кіносеансів.</p>
+    </header>
+
+    <main>
+        <section id="showtimes">
+            <h2>Сьогоднішні сеанси</h2>
+            <ul>
+                <li>Велика Пригода - 15:00</li>
+                <li>Романтична Втеча - 18:00</li>
+                <li>Година Таємниць - 21:00</li>
+            </ul>
+            <button id="show-details">Показати деталі</button>
+            <p id="details" class="hidden">Деталі: Усі фільми транслюються в Dolby Surround Sound та 4K якості.</p>
+        </section>
+
+        <section id="feedback-section">
+            <h2>Залиште свій відгук</h2>
+            <input type="text" id="feedback" placeholder="Напишіть ваш відгук тут">
+            <button id="submit-feedback">Надіслати</button>
+            <p id="response" class="hidden"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 StarLight Cinema. Усі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
